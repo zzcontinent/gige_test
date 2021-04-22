@@ -60,8 +60,8 @@ int main(int argc, char* argv[])
 		if (ret == -1) {
 			break;
 		}
-		total_kb += strlen(buf) / 1000;
-		printf("\r[ip: %s, port: %d, len: %ld, total: %ld KB]", inet_ntoa(src_addr.sin_addr), ntohs(src_addr.sin_port), strlen(buf), total_kb); //打印消息发送方的ip与端口号
+		total_kb += strlen(buf);
+		printf("\r[ip: %s, port: %d, len: %ld, total: %ld KB]", inet_ntoa(src_addr.sin_addr), ntohs(src_addr.sin_port), strlen(buf), total_kb / 1000); //打印消息发送方的ip与端口号
 		if (strcmp(buf, "exit") == 0) {
 			break; //收到"exit"退出循环
 		}

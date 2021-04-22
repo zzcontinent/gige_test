@@ -21,9 +21,10 @@ int* thread_monitor(void* arg)
 	printf("tid:%ld\n", newTid);
 	long last_send = send_cnt;
 	for (;;) {
+		long current_send = send_cnt;
+		printf("[total:%ld KB, speed: %ld KB/s]\n", current_send / 1000, (current_send - last_send) / 1000);
+		last_send = current_send;
 		sleep(1);
-		printf("[total:%ld KB, speed: %ld KB/s]\n", send_cnt / 1000, (send_cnt - last_send) / 1000);
-		last_send = send_cnt;
 	}
 }
 

@@ -8,6 +8,6 @@ recv: recv.c
 	gcc $^ -o $@ -lpthread
 
 clean:
-	-rm send recv send
+	rm send recv
 
 .PHONY: all

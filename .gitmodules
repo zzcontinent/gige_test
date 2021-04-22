@@ -1,3 +1,9 @@
-[submodule "GigeVisionCam"]
-	path = GigeVisionCam
+[submodule "submodules/GigeVisionCam"]
+	path = submodules/GigeVisionCam
 	url = git@github.com:aileenfun/GigeVisionCam.git
+[submodule "submodules/udp-image-streaming"]
+	path = submodules/udp-image-streaming
+	url = https://github.com/chenxiaoqino/udp-image-streaming.git
+[submodule "submodules/rc_genicam_api"]
+	path = submodules/rc_genicam_api
+	url = git@github.com:roboception/rc_genicam_api.git
