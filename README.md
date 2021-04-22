@@ -1,17 +1,22 @@
 # gige_test
 
 # 0. add submodule
+```
 git clone git@github.com:aileenfun/GigeVisionCam.git
 git submodule add git@github.com:aileenfun/GigeVisionCam.git
+```
 
 # 1. udp test speed
+```
 cd udp && make
 sudo ifconfig lo mtu 65536
 ./recv 9999  (start receive process)
 ./send 127.0.0.1 9999 0 (start send process, ip, port, not loop)
 cat 60k | ./send 127.0.0.1 9999 1 (start send process, loop sending 60k, with args: ip, port, loop)
+```
 
 # 2. udp test speed log message
+```
 send log:
 $ cat 60k | ./send 127.0.0.1 9999 1
 Please input broadcast msg:
@@ -34,17 +39,24 @@ recv log:
 $ ./recv 9999
 recv ready!!!
 [ip: 127.0.0.1, port: 57874, len: 61440, total: 78585016 KB]
+```
 
 # 3. ./submodules/udp-image-streaming
+```
 mkdir build && cd build && cmake .. . && make -j
 ./server 9999
 ./client 127.0.0.1 9999 cam (using pc camera)
 ./client 127.0.0.1 9999 xxx.mp4 (using mp4 video)
+```
 
 # 4. ./submodules/rc_genicam_api
+```
 mkdir build && cd build && cmake .. . && make -j
 using GenICam to contact GigeVision camera, including discovery
+```
 
 # 5. ./doc
+```
 documents
+```
 
