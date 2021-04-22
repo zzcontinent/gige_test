@@ -1,0 +1,3 @@
+[submodule "GigeVisionCam"]
+	path = GigeVisionCam
+	url = git@github.com:aileenfun/GigeVisionCam.git

@@ -1,0 +1,45 @@
+Warning: : : 0: QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+Warning: : : 0: QLayout: Attempting to add QLayout "" to QGroupBox "", which already has a layout
+Warning: : : 0: QLayout: Attempting to add QLayout "" to QGroupBox "", which already has a layout
+Warning: : : 0: QLayout: Attempting to add QLayout "" to QGroupBox "", which already has a layout
+Warning: : : 0: QLayout: Attempting to add QLayout "" to QGroupBox "", which already has a layout
+Debug: : : 0: Begin acquisition
+Debug: : : 0: Error in single capture.  Spinnaker: Camera is already streaming [-1004]
+Debug: : : 0: End acquisition
+Debug: : : 0: Begin acquisition
+Debug: : : 0: Error getting control type.  Spinnaker: Error reading from device at register address: 00086000. Please try reconnecting the device. [-1010]
+Debug: : : 0: Error getting control type.  Spinnaker: Error reading from device at register address: 00086400. Please try reconnecting the device. [-1010]
+Debug: : : 0: Error getting control type.  Spinnaker: Error reading from device at register address: 00084020. Please try reconnecting the device. [-1010]
+Debug: : : 0: Error getting control type.  Spinnaker: Error reading from device at register address: 00084040. Please try reconnecting the device. [-1010]
+Debug: : : 0: Error setting model data for integer node.  GevSCDA   Spinnaker: Error reading from device at register address: 00000D18. Please try reconnecting the device. [-1010]
+Debug: : : 0: Error getting control type.  Spinnaker: Error reading from device at register address: 00078000. Please try reconnecting the device. [-1010]
+Debug: : : 0: Error getting control type.  Spinnaker: Error reading from device at register address: 000780C0. Please try reconnecting the device. [-1010]
+Debug: : : 0: Error getting control type.  Spinnaker: Error reading from device at register address: 002A0100. Please try reconnecting the device. [-1010]
+Debug: : : 0: Error getting control type.  Spinnaker: Error reading from device at register address: 002A0120. Please try reconnecting the device. [-1010]
+Debug: : : 0: Error getting control type.  Spinnaker: Error reading from device at register address: 002A0160. Please try reconnecting the device. [-1010]
+Debug: : : 0: Error getting control type.  Spinnaker: Error reading from device at register address: 000800E0. Please try reconnecting the device. [-1010]
+Debug: : : 0: Error setting model data for boolean node.  BlackLevelClampingEnable   Spinnaker: Error reading from device at register address: 00107F84. Please try reconnecting the device. [-1010]
+Debug: : : 0: Error getting control type.  Spinnaker: Error reading from device at register address: 00081080. Please try reconnecting the device. [-1010]
+Debug: : : 0: Error getting control type.  Spinnaker: Error reading from device at register address: 00081060. Please try reconnecting the device. [-1010]
+Debug: : : 0: Error getting control type.  Spinnaker: Error reading from device at register address: 00074020. Please try reconnecting the device. [-1010]
+Debug: : : 0: Error getting control type.  Spinnaker: Error reading from device at register address: 00074040. Please try reconnecting the device. [-1010]
+Debug: : : 0: Error getting control type.  Spinnaker: Error reading from device at register address: 00084C00. Please try reconnecting the device. [-1010]
+Debug: : : 0: Error getting control type.  Spinnaker: Error reading from device at register address: 00084400. Please try reconnecting the device. [-1010]
+Debug: : : 0: Error getting control type.  Spinnaker: Error reading from device at register address: 00085000. Please try reconnecting the device. [-1010]
+Debug: : : 0: Error getting control type.  Spinnaker: Error reading from device at register address: 00084800. Please try reconnecting the device. [-1010]
+Debug: : : 0: Error getting control type.  Spinnaker: Error reading from device at register address: 00086020. Please try reconnecting the device. [-1010]
+Debug: : : 0: Error getting control type.  Spinnaker: Error reading from device at register address: 00086040. Please try reconnecting the device. [-1010]
+Debug: : : 0: Error getting control type.  Spinnaker: Error reading from device at register address: 000860A0. Please try reconnecting the device. [-1010]
+Warning: : : 0: QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+Warning: : : 0: QLayout: Attempting to add QLayout "" to QGroupBox "", which already has a layout
+Warning: : : 0: QLayout: Attempting to add QLayout "" to QGroupBox "", which already has a layout
+Warning: : : 0: QLayout: Attempting to add QLayout "" to QGroupBox "", which already has a layout
+Warning: : : 0: QLayout: Attempting to add QLayout "" to QGroupBox "", which already has a layout
+Debug: : : 0: Camera is on the wrong subnet or is in updater mode
+Debug: : : 0: Error occurred when initializing camera display  Spinnaker: Camera is on a wrong subnet. [-1015]
+Debug: : : 0: Error adding image display  "Spinnaker: Parameter is not initialized. NodeMap is NULL. [-1002]"
+Debug: : : 0: Begin acquisition
+Warning: : : 0: QWidget::setMinimumSize: (/wFileAccess) Negative sizes (0,-1) are not possible
+Debug: : : 0: Error in single capture.  Spinnaker: Camera is already streaming [-1004]
+Debug: : : 0: Error in single capture.  Spinnaker: Camera is already streaming [-1004]
+Debug: : : 0: End acquisition
